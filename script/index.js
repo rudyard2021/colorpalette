@@ -6,7 +6,6 @@ window.onload = () =>{
             getClassName(key)
         );
 
-        printf(container);
         for(let keyColor in color[key]){
             textColor = color[key][keyColor];
             node = createContainer(textColor);
